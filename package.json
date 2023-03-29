@@ -1,0 +1,25 @@
+{
+  "name": "constructor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KwakYounHo/JS_constructor_function_23.03.29.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KwakYounHo/JS_constructor_function_23.03.29/issues"
+  },
+  "homepage": "https://github.com/KwakYounHo/JS_constructor_function_23.03.29#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "mysql2": "^3.2.0",
+    "qs": "^6.11.1"
+  }
+}
