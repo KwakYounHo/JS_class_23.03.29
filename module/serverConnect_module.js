@@ -27,7 +27,7 @@ export default http.createServer((req,rep)=>{
   if (req.method === 'GET') {
     switch (true) {
       case req.url==='/' :
-        Mrep(200, 'text/html', b())
+        Mrep(200, 'text/html', fs.readFileSync('./HTML/index.html','utf-8'))
         break
       case CUrl('index.html') :
         Mrep(200, 'text/html',fs.readFileSync('./HTML/index.html','utf-8'))
